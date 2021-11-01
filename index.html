@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Explora el Espacio</title>
+    <link rel="stylesheet" href="css/style.css">
+   <!-- Font awesome -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+   <link rel="shortcut icon" href="images/explorethespace.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Inicio Marco -->
+    <div class="marco">
+        <!-- Inicio Header -->
+        <header>
+            <a href="#" class="logo">
+                <img src="images/logo-exploraelespacio.png" alt="Explora el espacio">
+            </a>
+                <!-- Inicio Menú Móvil -->
+                <div class="menu-mob" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <!-- Fin Menú Móvil -->
+                <!-- Inicio menú -->
+                <nav class="menu-desk" id="menuDesk">
+                    <a href="#" >_Inicio</a>
+                    <a href="#exploradores" >_Exploradores</a>
+                    <a href="#planetas" >_Planetas</a>
+                    <a href="#contacto" >_Contacto</a>
+                </nav>
+                <!-- Fin menú -->
+        </header>
+        <!-- Fin header -->
+        <!-- Inicio Sección Principal -->
+        <main>
+            <div class="main-text">
+                <h1>Explora el Espacio</h1>
+                <p>Solo 24 personas han viajado fuera de la órbita terrestre baja. ¿Te atreves a llegar más allá?</p>
+                <a href="#exploradores" class="btn-main">
+                     <button id="mainButton" >Comienza</button>
+                </a>
+             </div>
+            <div class="main-img-container">
+                <img src="images/astronaut.png" alt="Astronauta" class="main-img">
+             </div>
+        </main>
+        <!-- Fin Sección Principal -->
+        <!-- Inicio Sección exploradores -->
+        <!-- Inicio de información del explorador Juno -->
+        <section class="exploradores" id="exploradores">
+            <h1>Elige un explorador</h1>
+            <div class="transport">
+                <img src="images/Juno.png" alt="Juno Sonda Espacial">
+                <h2>Juno</h2>
+                <a href="#planetas">
+                     <button id="btnJupiter">Elegir</button>
+                </a>
+                <button class="info-toggle" id="infoTecJuno" >Información Técnica</button>
+                <div class="info-exploradores" id="infoJuno">
+                    <ul>
+                        <li>
+                            Sonda espacial diseñada para estudiar la atmósfera del planeta Júpiter,  su origen, estructura y evolución. Esta sonda forma parte del programa espacial New Frontiers de la NASA.
+                        </li>
+                        <li>
+                            Duración del viaje: 5 años y 11 meses
+                        </li>
+                        <li>
+                            Masa de Lanzamiento: 3625 kg
+                        </li>
+                        <li>
+                            Velocidad: 618 km/h
+                        </li>
+                        <li>
+                            Potencia Eléctrica: Dos baterías de ion litio de 55 Ah alimentadas mediante energía solar fotovoltaica
+                        </li>
+                        <li>Duración estimada de la misión: 1 años terrestre</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Fin de información del explorador Juno -->
+            <!-- Inicio de información del explorador Rosalind -->
+            <div class="transport">
+                <img src="images/Rosalind.png" alt="Rosalind Explorador de Marte">
+                <h2>Rosalind Franklin</h2>
+                <a href="#marte">
+                    <button id="btnMarte">Elegir</button>
+                </a>
+                <button class="info-toggle" id="infoTecRosalind">Información Técnica</button>
+                <div class="info-exploradores" id="infoRFranklin">
+                    <ul>
+                        <li>
+                            Rover que se desplegará en la superficie de Marte. Deberá perforar 2 metros en la superficie marciana. Parte del programa internacional ExoMars dirigido por la AEE y la CERR.  
+                        </li>
+                        <li>
+                            Duración del viaje: 1 año
+                        </li>
+                        <li>
+                            Masa de Lanzamiento: 310 kg
+                        </li>
+                        <li>
+                            Velocidad: 70m/sol (Día de Marte)
+                        </li>
+                        <li>
+                            Potencia Eléctrica: Alimentado mediante energía solar fotovoltaica
+                        </li>
+                        <li>Duración estimada de la misión: 7 meses terrestres</li>
+                    </ul>
+                </div>
+                <!-- Fin de información del explorador Rosalind -->
+                <!-- Inicio de información del explorador BepiC -->
+            </div>
+            <div class="transport">
+                <img src="images/BepiColombo.png" alt="BepiColombo">
+                <h2>BepiColombo</h2>
+                <a href="#mercurio">
+                    <button id="btnMercurio">Elegir</button>
+                </a>
+                <button class="info-toggle" id="infoTecBColombo">Información Técnica</button>
+                <div class="info-exploradores" id="infoBColombo" >
+                    <ul>
+                        <li>
+                            Misión de la ESA y la JAXA al planeta Mercurio. Comprende dos satélites: el Mercury Planetary Orbiter (MPO) y el Mercury Magnetospheric Orbiter (MMO).
+                        </li>
+                        <li>
+                            Duración del viaje: 3 años
+                        </li>
+                        <li>
+                            Masa de Lanzamiento: 4 100 kg y 2 700 kg
+                        </li>
+                        <li>
+                            Velocidad: MPO: 400/1500 km/2.3h para el MPO y de 400/12000 km/9.2h para el MMO.
+                        </li>
+                        <li>
+                            Potencia Eléctrica: Propulción iónica y consumo de 450 y 300 vatios
+                        </li>
+                        <li>Duración estimada de la misión: 5 años terrestres</li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Fin de información del explorador BepiC -->
+        </section>
+        <!-- Fin Sección exploradores -->
+        <!-- Inicio Planetas -->
+        <!-- Inicio Jupiter -->
+        <section class="planetas planet jupiter" id="planetas"> 
+            <div class="text-planet">
+                <h1>Júpiter</h1>
+                <p>
+                    Júpiter es el planeta más grande del sistema solar y el quinto en orden de lejanía al Sol.​ Es un gigante gaseoso que forma parte de los denominados planetas exteriores.
+                </p>
+                <ul>
+                    <li>
+                        Satélites: 79 conocidos
+                    </li>
+                    <li>
+                        Masa: 1,899×1027 kg
+                    </li>
+                    <li>
+                        Gravedad: 24.79 m/s²
+                    </li>
+                    <li>
+                        Temperatura Máxima: -75,15 °C
+                    </li>
+                </ul>
+            </div>
+            <div class="img-planet">
+              <img src="images/jupiter.png" alt="planeta Jupiter">
+            </div>
+        </section>
+        <!-- Fin Jupiter -->
+        <!-- Inicio Marte -->
+            <section class="planetas planet" id="marte">  
+                <div class="text-planet">
+                    <h1>Marte</h1>
+                    <p>
+                        Marte es el cuarto planeta en orden de distancia al Sol y también es conocido como «el planeta rojo»​ debido a la apariencia rojiza5​ que le confiere el óxido de hierro predominante en su superficie.
+                    </p>
+                    <ul>
+                        <li>
+                            Satélites: 2 conocidos
+                        </li>
+                        <li>
+                            Masa: 6,4185 × 1023 kg
+                        </li>
+                        <li>
+                            Gravedad: 3,72076 m/s²
+                        </li>
+                        <li>
+                            Temperatura Máxima: 20 °C​
+                        </li>
+                    </ul>
+                </div>
+                <div class="img-planet">
+                  <img src="images/marte.png" alt="planeta marte">
+                </div>
+            </section>
+        <!-- Fin Marte -->
+        <!-- Inicio Mercurio -->
+            <section class="planetas planet" id="mercurio"> 
+                <div class="text-planet">
+                    <h1>Mercurio</h1>
+                    <p>
+                        Mercurio es el planeta del sistema solar más cercano al Sol y el más pequeño. Es uno de los cuatro planetas rocosos o sólidos y está formado aproximadamente por un 70 % de elementos metálicos y un 30 % de silicatos
+                    </p>
+                    <ul>
+                        <li>
+                            Satélites: 0 conocidos
+                        </li>
+                        <li>
+                            Masa: 3,302×1023 kg
+                        </li>
+                        <li>
+                            Gravedad: 3,7 m/s²1​
+                        </li>
+                        <li>
+                            Temperatura Máxima: 427 °C
+                        </li>
+                    </ul>
+                </div>
+                <div class="img-planet">
+                  <img src="images/mercurio.png" alt="planeta mercurio">
+                </div>
+            </section>
+            <!-- Fin Mercurio -->
+        <!-- Fin Planetas -->
+        <!-- Inicio Contacto -->
+        <section class="contacto" id="contacto">
+            <h1>Contacto</h1>
+            <div class="form-contacto">
+                <form name="contacto" action="#" method="POST">
+                    <input type="text" placeholder="Name *">
+                    <input type="email" name="" id="email" placeholder="Email *">
+                    <textarea name="message" id="message" placeholder="Message *"></textarea>
+                    <div>
+                     <input type="submit" value="Submit" id="btn-submit">
+                    </div>
+                </form>
+                </div>
+        </section>
+        <!-- Fin contacto -->
+        <!-- Inicio Modal Jupiter -->
+        <div class="modal" id="modalJupiter">
+            <i class="modal-close fas fa-times" id="modalCloseJupiter"></i>
+            <div class="journey-text">
+                <h1>Bienvenido a Júpiter</h1>
+                <p>Han pasado 5 años, Juno te ha transportado exitosamente a Júpiter, el planeta gaseoso, a continuación puedes ver la información que tenemos del planeta</p>
+                <button class="secondary-button" id="btnCloseJupiter">Entendido</button>
+            </div>
+        </div>
+        <!-- Fin Modal Jupiter -->
+        <!-- Inicio Modal Marte -->
+        <div class="modal" id="modalMarte">
+            <i class="modal-close fas fa-times" id="modalCloseMarte"></i>
+            <div class="journey-text">
+                <h1>Bienvenido a Marte</h1>
+                <p>Rosalind será tu transporte en marte, para que tu viaje sea cómodo, tiene seis ruedas de 25cm de diámetro y unidades de calentadores de radioisótopo para mantener calientes sus componentes electrónicos por la noche</p>
+                <button class="secondary-button" id="btnCloseMarte">Entendido</button>
+            </div>
+        </div>
+        <!-- Fin Modal Marte -->
+        <!-- Inicio Modal Mercurio -->
+        <div class="modal" id="modalMercurio">
+            <i class="modal-close fas fa-times" id="modalCloseMercurio"></i>
+            <div class="journey-text">
+                <h1>Bienvenido a Mercurio</h1>
+                <p>Han pasado 3 años, BepiColombo te ha transportado exitosamente a Mercurio, MPO y MMO te acompañaran a visitar su órbita, a continuación puedes ver la Información que tenemos del planeta</p>
+                <button class="secondary-button" id="btnCloseMercurio">Entendido</button>
+            </div>
+        </div>
+                <!-- Fin Modal Marte -->
+            <!-- Inicio Overlay -->
+        <div class="overlay" id="overlay"></div>
+        <!-- Fin Overlay -->
+    </div>
+    <!-- Fin Marco -->
+</body>
+<!-- Inicio JS Propio -->
+<script src="js/main.js"></script>
+<!-- Fin JS propio -->
+</html>
